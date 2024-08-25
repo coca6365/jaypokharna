@@ -7,7 +7,6 @@ import { Github } from "lucide-react";
 import { Twitter } from "lucide-react";
 import Social from "./Social";
 import { X } from 'lucide-react';
-import { StickyNote } from 'lucide-react';
 import { CodeSquare } from 'lucide-react';
 
 const Leftbox = ({visible,setVisible,mainVisible,setmainVisible}) => {
@@ -64,7 +63,7 @@ const Leftbox = ({visible,setVisible,mainVisible,setmainVisible}) => {
               <Social
                 name="Github"
                 image={<Github color="#d25639" size={24} />}
-                link="https://github.com/jaypokharna"
+                link="https://github.com/pokharnajay"
               />
               <Social
                 name="Twitter"

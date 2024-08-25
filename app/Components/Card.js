@@ -13,7 +13,7 @@ const Card = (props) => {
 
       <div className="info h-fit px-4 py-0 flex flex-col gap-2 max-mb:py-3 row-span-1">
         <div className='text-black text-md font-bold leading-5 max-mb:text-2xl'>{props.project}</div>
-        <div className='text-black text-xs font-light leading-3 max-mb:text-sm w-[90%]'>{props.skills}</div>
+        <div className='text-black text-xs leading-3 max-mb:text-sm mb:text-lg lg:text-xl w-[90%]'>{props.skills}</div>
       </div>
 
     </motion.a>
